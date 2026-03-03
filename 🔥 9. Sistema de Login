@@ -1,0 +1,24 @@
+let usuariocorreto = "admin"
+let senhacorreta = "1234"
+let maxtentativas = 3
+let tentativas = 0
+
+while (tentativas < maxtentativas) {
+  let usuario = prompt("Digite o usuário")
+  let senha = prompt("Digite a senha")
+  
+  if (usuario === usuariocorreto && senha === senhacorreta) {
+    console.log("Parabéns, usuário e senha corretos.")
+    console.log("Acesso liberado")
+    break
+  } else {
+    tentativas++
+    console.log("Usuário e/ou senha incorretos")
+    console.log("Acesso negado")
+  }
+}
+
+if (tentativas === maxtentativas) {
+  console.log("Número máximo de tentativas atingido.")
+  console.log("Acesso Negado")
+}
