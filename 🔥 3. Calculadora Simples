@@ -1,0 +1,24 @@
+let valor1 = Number(prompt("Qual o primeiro número?"));
+let valor2 = Number(prompt("Qual o segundo número?"));
+let operacao = prompt("Operação matemática? (+|-|*|/)");
+
+switch (operacao) {
+  case "+":
+    console.log(`Resultado: ${valor1 + valor2}`);
+    break;
+
+  case "-":
+    console.log(`Resultado: ${valor1 - valor2}`);
+    break;
+
+  case "*":
+    console.log(`Resultado: ${valor1 * valor2}`);
+    break;
+
+  case "/":
+      console.log(`Resultado: ${valor1 / valor2}`);
+    break;
+
+  default:
+    console.log("Operação inválida");
+}
