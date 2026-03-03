@@ -1,0 +1,41 @@
+console.log ("Digite 5 números (Positivos ou Negativos)");
+let valor1 = Number(prompt("Digite o primeiro número"));
+let valor2 = Number(prompt("Digite o segundo número"));
+let valor3 = Number(prompt("Digite o terceiro número"));
+let valor4 = Number(prompt("Digite o quarto número"));
+let valor5 = Number(prompt("Digite o quinto número"));
+if(valor1 >= 1){
+  console.log(`O número ${valor1} é positivo`);
+} else if(valor1 < 0){
+  console.log(`O número ${valor1} é negativo`);
+}else{
+  console.log("Zero é um número neutro (nem negativo nem positivo)");
+}
+if(valor2 >= 1){
+  console.log(`O número ${valor2} é positivo`);
+} else if(valor2 < 0){
+  console.log(`O número ${valor2} é negativo`);
+}else{
+  console.log("Zero é um número neutro (nem negativo nem positivo)");
+}
+if(valor3 >= 1){
+  console.log(`O número ${valor3} é positivo`);
+} else if(valor3 < 0){
+  console.log(`O número ${valor3} é negativo`);
+}else{
+  console.log("Zero é um número neutro (nem negativo nem positivo)");
+}
+if(valor4 >= 1){
+  console.log(`O número ${valor4} é positivo`);
+} else if(valor4 < 0){
+  console.log(`O número ${valor4} é negativo`);
+}else{
+  console.log("Zero é um número neutro (nem negativo nem positivo)");
+}
+if(valor5 >= 1){
+  console.log(`O número ${valor5} é positivo`);
+} else if(valor5 < 0){
+  console.log(`O número ${valor5} é negativo`);
+}else{
+  console.log("Zero é um número neutro (nem negativo nem positivo)");
+}
