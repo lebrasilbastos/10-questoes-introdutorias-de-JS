@@ -1,0 +1,15 @@
+let valor1 = Number(prompt("Insira o primeiro valor"));
+let valor2 = Number(prompt("Insira o segundo valor"));
+let valor3 = Number(prompt("Insira o terceiro valor"));
+let soma = (valor1 + valor2 + valor3);
+let media = (valor1 + valor2 + valor3) / 3;
+console.log(`A sua média é:`)
+console.log(`${valor1} + ${valor2} + ${valor3}`);
+console.log(`${soma} / 3 = ${media}`);
+if(media >= 7){
+  console.log(`Você foi aprovado com ${media}`)
+} else if(media >= 5 && media < 7){
+  console.log(`Você está de recuperação com ${media}`);
+}else{
+console.log(`Você foi reprovado com ${media}`)
+}
