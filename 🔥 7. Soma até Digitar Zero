@@ -1,0 +1,9 @@
+let soma = 0;
+let numero;
+
+do {
+  numero = Number(prompt("Insira um número (digite 0 para parar):"));
+  soma += numero;
+} while (numero !== 0);
+
+console.log(`A soma total dos números digitados é: ${soma}`);
